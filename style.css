@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: pink;
+}
+h1{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+title {
+    font-size: 10px;
+    text-align: left;
+}
+h2 {
+    color: pink;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+p {
+    color:blue;
+}
+li {
+    color: rgb(71, 46, 139);
+    list-style: none;
+
+}
+#special {
+    color: green;
+    font-size: 20px;
+}
+.cool{
+    color: skyblue;
+}
+.square {
+    text-align: right;
+    box-sizing: border-box;
+height: 250px;
+width:250px;
+border-bottom: 12px;
+margin: 10px;
+background-color: orange;
+padding: 50px;
+}
+#cool-square {
+    background: blue;
+}
+#uncool-square {
+    background: red;
+}
