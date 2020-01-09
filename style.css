@@ -22,6 +22,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
+
 p {
     color:blue;
 }
@@ -37,15 +38,20 @@ li {
 .cool{
     color: skyblue;
 }
-.square {
+.square{
     text-align: right;
     box-sizing: border-box;
 height: 250px;
 width:250px;
-border-bottom: 12px;
+border-bottom: 120px;
 margin: 10px;
 background-color: orange;
 padding: 50px;
+transition:all .2s ease-in-out;
+}
+.square:hover {
+    width:400px;
+    cursor: pointer;
 }
 #cool-square {
     background: blue;
